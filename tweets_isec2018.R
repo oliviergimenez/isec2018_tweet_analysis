@@ -164,6 +164,9 @@ words_counts %>%
  x = "", y = "") 
 ggsave('network_words.png')
 
+# It is also possible to do some network analyses on the names 
+# see https://freakonometrics.hypotheses.org/19798 and http://w3.mi.parisdescartes.fr/~cbouveyr/blog/post2
+
 #-------------------------------
 #---- 3. Topic modelling ----#
 #-------------------------------
