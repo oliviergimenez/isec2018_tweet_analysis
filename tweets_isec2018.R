@@ -199,5 +199,19 @@ models <- list(Gibbs = LDA(dtm, k = k, method = "Gibbs", control = list(seed = S
 # Do you see any themes you can label to these "topics" (lists of words)?
 lapply(models, terms, 10)
 
+#      Topic 1        Topic 2    Topic 3        Topic 4     Topic 5         
+# [1,] "bes"          "models"   "andrews"      "modelling" "britishecolsoc"
+# [2,] "david"        "data"     "population"   "analysis"  "rstats"        
+# [3,] "people"       "talk"     "biodiversity" "hmms"      "ellner"        
+# [4,] "nice"         "movement" "hierarchical" "study"     "distance"      
+# [5,] "density"      "model"    "selection"    "theoni"    "forward"       
+# [6,] "sig"          "ecology"  "based"        "tomorrow"  "hmm"           
+# [7,] "abundance"    "session"  "cool"         "marine"    "inference"     
+# [8,] "hoeting"      "species"  "free"         "stephen"   "package"       
+# [9,] "johnston"     "week"     "fun"          "science"   "statistics"    
+# [10,] "conservation" "day"      "lucaborger"   "stats"     "joint"         
+
+
+
 # Topic modelling also possible in the 
 # tidy universe https://cran.r-project.org/web/packages/tidytext/vignettes/topic_modeling.html
